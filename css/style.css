@@ -1,0 +1,53 @@
+/* regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* header */
+header {
+    height: 450px;
+    margin-bottom: 110px;
+    /* DEBUG */
+    background-color: brown;
+}
+
+
+
+/* parte interna */
+
+
+
+
+     /* menù contestuale */
+     
+
+
+
+     /* blocco contenuti principale */
+    
+
+
+
+
+
+
+
+
+/* footer */
+footer  {
+    height: 500px;
+    background-color: blue;
+
+
+
+}
+
+
+
