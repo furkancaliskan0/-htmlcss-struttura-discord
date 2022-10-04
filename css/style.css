@@ -13,14 +13,204 @@
 /* header */
 header {
     height: 450px;
-    margin-bottom: 110px;
     /* DEBUG */
-    background-color: brown;
+    background-color: red;
+}
+   .box-header{
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+       justify-content: flex-end;
+       align-items: center;
+        /* DEBUG */
+        background-color: rebeccapurple;
+
+    }
+
+
+    .box-header .text-header{
+        height: 41%;
+        width: 64%;
+        /* DEBUG */
+        background-color: mediumspringgreen;
+    }
+
+    .btn-header{
+        width: 65%;
+        height: 15%;
+        margin-bottom: 78px;
+        display: flex;
+        justify-content: center;
+        /* DEBUG */
+        /* background-color: yellow; */
+    }
+       
+       .btn-header >  .btn-open{
+        width: 50%;
+        height: 100%;
+        /* DEBUG */
+        /* background-color: black; */
+       }   
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: blue;
+
+}
+      nav >  .icona{
+        width: 10%;
+        /* DEBUG */
+        background-color: chartreuse;
+
+      }
+
+      nav> .btn-reg{
+        width: 10%;
+        /* DEBUG */
+        background-color: violet;
+      }
+
+
+      nav >  ul > li{
+          list-style: none;
+          margin: 0  10px;
+      }
+
+/* Main Rules */
+
+.bg-grey{
+    padding: 150px 0;
+    /* DEBUG */
+    background-color: grey;
+
 }
 
+.bg-white{
+    padding: 150px 0;
+    /* DEBUG */
+    background-color: white;
+}
+.bd-grey > .sezione-4-main{
+    padding-bottom: 52px;
+}
+
+  .sezione-1-main{
+    width: 82%;
+    min-height: 352px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* DEBUG */
+    background-color: blueviolet;
+  }
+
+  .sezione-1-main > .image{
+    flex-basis: 60%;
+    /* DEBUG */
+    background-color: green;
+  }
+
+  .sezione-1-main > .text{
+    flex-basis: 40%;
+    /* DEBUG */
+    background-color: yellow;
+  }
+
+  .sezione-2-main{
+    width: 82%;
+    min-height: 352px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* DEBUG */
+    background-color: blueviolet;
+  }
+  .sezione-2-main > .image{
+    flex-basis: 60%;
+    /* DEBUG */
+    background-color: green;
+  }
+
+  .sezione-2-main > .text{
+    flex-basis: 40%;
+    /* DEBUG */
+    background-color: yellow;
+  }
+
+  .sezione-3-main{
+    width: 82%;
+    min-height: 352px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* DEBUG */
+    background-color: blueviolet;
+  }
+
+  .sezione-3-main > .image{
+    flex-basis: 60%;
+    /* DEBUG */
+    background-color: green;
+  }
+
+  .sezione-3-main > .text{
+    flex-basis: 40%;
+    /* DEBUG */
+    background-color: yellow;
+  }
+
+  .sezione-4-main{
+    width: 82%;
+    min-height: 352px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* DEBUG */
+    background-color: blueviolet;
+  }
+
+  .sezione-4-main > .image{
+    flex-basis: 60%;
+    /* DEBUG */
+    background-color: green;
+  }
+
+  .sezione-4-main > .text{
+    flex-basis: 40%;
+    /* DEBUG */
+    background-color: yellow;
+  }
+
+
+  .sezione-5-main{
+    width: 82%;
+    min-height: 170px;
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* DEBUG */
+    background-color: blueviolet;
+  }
+
+  .sezione-5-main > .btn-dowload{
+    flex-basis: 50%;
+    /* DEBUG */
+    background-color: green;
+  }
+
+  .sezione-5-main > .text{
+    flex-basis: 40%;
+    /* DEBUG */
+    background-color: yellow;
+  }
 
 
 /* parte interna */
+
 
 
 
@@ -33,21 +223,46 @@ header {
      /* blocco contenuti principale */
     
 
-
-
-
-
-
-
-
 /* footer */
 footer  {
     height: 500px;
-    background-color: blue;
+    background-color: pink;
+}
 
-
+.sezione-1-footer{
+    height: 490px;
+    background-color: aqua;
 
 }
+   .sezione-1-footer > div{
+    flex-basis: calc(70% / 4);
+    text-align: center;
+    /* DEBUG */
+    background-color: blue;
+    border: 1px solid black;
+   }
+
+.sezione-2-footer{
+    height: 490px;
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: brown;
+
+}
+   .sezione-2-footer > .icona{
+    width: 11%;
+    /* DEBUG */
+    background-color: darkgreen;
+   }
+   
+   .sezione-2-footer > .btn-reg{
+    width: 11%;
+    /* DEBUG */
+    background-color: indigo;
+   }  
+
+
 
 
 
